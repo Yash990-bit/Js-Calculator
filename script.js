@@ -9,14 +9,14 @@ buttons.forEach(button => {
                 string = eval(string);
                 input.value = string;
             }catch(error){
-                input.value = 'Error';
+                input.value ='Error';
             }
         }
-        else if(e.target.innerHTML === 'AC'){
+        else if(e.target.innerHTML ==='AC'){
             string = "";
             input.value = string;
         }
-        else if(e.target.innerHTML === 'DEL'){
+        else if(e.target.innerHTML ==='DEL'){
             string = string.slice(0,-1);
             input.value = string;
         }
