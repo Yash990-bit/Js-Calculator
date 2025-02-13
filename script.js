@@ -16,6 +16,9 @@ buttons.forEach(button => {
             string = "";
             input.value = string;
         }
-        
+        else if(e.target.innerHTML === 'DEL'){
+            string = string.slice(0,-1);
+            input.value = string;
+        }
     });
 });
