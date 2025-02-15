@@ -72,4 +72,44 @@ button.btn{
     color:#6dee6d;
 }
 
+@media screen and (max-width:768px){
+    .calculator{
+        padding: 15px;
+    }
+    input{
+        font-size:32px;
+    }
+    button{
+        width:60px;
+        height:60px;
+        font-size:18px;
+    }
+}
+
+@media screen and (max-width:480px){
+    .calculator{
+        padding:10px;
+    }
+    input{
+        font-size: 28px;
+        padding:18px;
+    }
+    button{
+        width:55px;
+        height: 55px;
+        font-size:16px;
+    }
+    .row{
+        display: grid;
+        grid-template-columns: (4, 1fr);
+        gap:8px;
+    }
+    .calculator{
+        max-width: 320px;
+    }
+    button.equalBtn{
+        width:100%;
+    }
+}
+
 
