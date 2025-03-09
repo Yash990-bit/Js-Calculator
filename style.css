@@ -14,7 +14,7 @@ body{
     justify-content: center;
     align-items: center;
     background:linear-gradient(45deg,#0a0a0a,#3a4452);
-    animation:moveBodyUpDown 5s ease-in-out;
+    animation:moveBodyUpDown 5s ease-in-out infinite;
 }
 
 @keyframes moveBodyUpDown {
@@ -22,7 +22,7 @@ body{
         transform: translateY(0);
     }
     50%{
-        transform: translateY(-20px);
+        transform: translateY(-25px);
     }
     100%{
         transform: translateY(0);
